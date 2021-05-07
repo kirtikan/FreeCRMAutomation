@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="CRM Test Suite">
+
+	<test name="CRM Test">
+
+		<!-- <groups> <run> <include name="basic" /> </run> </groups> -->
+		<packages>
+			<package name="com.crm.qa.testcases.*" />
+		</packages>
+
+		<!-- <classes> <class name="com.crm.qa.testcases.LoginPageTest" /> <class 
+			name="com.crm.qa.testcases.HomePageTest" /> <class name="com.crm.qa.testcases.ContactsPageTest" 
+			/> <class name="com.crm.qa.testcases.DealsPageTest" /> </classes> -->
+
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
